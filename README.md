@@ -153,6 +153,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+- You can also refer the following manual for more contributing guidelines and methods [Github Manual](https://githubtraining.github.io/training-manual/#/)
 
 <!-- LICENSE -->
 ## License
