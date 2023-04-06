@@ -1,0 +1,17 @@
+.about {
+    text-align: center;
+    margin-top: 0px;
+}
+.about > h1 {
+    font-size: 3em;
+    margin-top: 80px;
+    background: white;
+    color: #f2709c;
+    border-radius: 5px;
+    
+}
+.about > h3{
+    font-size: 1.3em;
+    font-weight: 100;
+    margin-top: 25px;
+} 
