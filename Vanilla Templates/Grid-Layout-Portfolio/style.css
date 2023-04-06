@@ -3,46 +3,73 @@
 body{
     margin: 0;
     font-family: 'Poppins';
-    background: #fbfaff;
+
 }
 
-main{
+main { 
     display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr; 
-    
+    grid-template-columns: 1.3fr 1fr 1fr; 
     min-height: 100%;
 }
+
+
 .panel{
     display: grid;
     grid-template-columns: 1fr;
 }
 
+.panel .text{
+    padding: 30px 60px;
+    background: #eeeee7;
+    color: #0c3216;
+}
+
 .panel.welcome{
-    background-color: #9667e0;
-    color: #fbfaff;
+    background-color: #323230;
+    color: #ffffff;
     padding: 30px 60px;
     grid-auto-rows: 1fr;
 }
 
 .panel.welcome nav a{
-    color: #fbfaff;
+    color: #a8a8a8;
     text-decoration: none;
     margin-right: 20px;
 }
 
 .panel.welcome p{
-    color: #fbfaff;
-    max-width: 580px;
+    color: #a8a8a8;
+    max-width: 540px;
     line-height: 2em;
 }
 
 .panel.welcome h1{
     font-size: 3em;
+    color: #eeeee7;
     
 }
-
 
 .panel.welcome footer{
     align-self: end;
 
+}
+
+.panel.about {
+    grid-template-rows: 3fr 1fr;
+    overflow: hidden;
+    
+}
+
+.panel.about img{
+    min-width: 100%;
+    min-height: 50%;
+}
+
+.panel.photos {
+    grid-template-rows: 1fr 3fr;
+    overflow:hidden;
+}
+.panel.photos img{
+    min-width: 100%;
+    min-height: 100%;
 }
