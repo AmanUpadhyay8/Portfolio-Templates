@@ -73,3 +73,36 @@ main {
     min-width: 100%;
     min-height: 100%;
 }
+/* Set the container to display as a grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: 20px;
+}
+
+/* Set the grid items to span the full width of the container */
+.grid-item {
+  grid-column: span 3;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+
+  .grid-item {
+    grid-column: span 2;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* One column */
+  }
+
+  .grid-item {
+    grid-column: span 1;
+  }
+}
